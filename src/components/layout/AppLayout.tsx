@@ -1,6 +1,5 @@
 import { NavLink, Outlet } from 'react-router'
-
-const navItems = [{ to: '/', label: 'Home' }]
+import { navItems } from '@/app/navigation'
 
 export default function AppLayout() {
   return (
